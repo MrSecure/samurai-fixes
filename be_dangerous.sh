@@ -16,7 +16,7 @@ SUFFIX="dangerous"
 
 SITES="dojo-basic dojo-scavenger dvwa mutillidae"
 for site in $SITES ; do
-  $D install -S .${DATE} -o samurai -g samurai -m 644 ${FILES}/${site}.${SUFFIX} /etc/apache2/sites-available/${site}
+  $D install -o samurai -g samurai -m 644 ${FILES}/${site}.${SUFFIX} /etc/apache2/sites-available/${site}
 done
 
 ## install -S .${DATE} -o samurai -g samurai -m 644 ${FILES}/dojo-basic /etc/apache2/sites-available/
