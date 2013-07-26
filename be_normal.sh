@@ -1,10 +1,8 @@
 #!/bin/bash
 
 echo
-echo "This script puts Samurai WTF's vulnerable targets into world accessible mode"
+echo "This script puts Samurai WTF's vulnerable targets back into the normal state"
 echo 
-echo "    ***   THIS IS CONSIDERED DANGEROUS TO THE SECURITY OF YOUR SYSTEM!! ***"
-echo
 echo "Remember to run this script using sudo!"
 echo "Press any key to continue..."
 read KEY
