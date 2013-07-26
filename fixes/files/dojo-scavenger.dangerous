@@ -1,4 +1,5 @@
-<VirtualHost 127.42.84.4:80>
+Listen 42844
+<VirtualHost 127.42.84.4:80 *:42844>
 	ServerAdmin webmaster@localhost
 
 	DocumentRoot /usr/share/samurai-dojo/scavenger

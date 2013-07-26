@@ -1,4 +1,5 @@
-<VirtualHost 127.42.84.2:80>
+Listen 42842
+<VirtualHost 127.42.84.2:80 *:42842>
 	ServerAdmin webmaster@localhost
 
 	DocumentRoot /usr/share/dvwa
