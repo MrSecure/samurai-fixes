@@ -12,7 +12,7 @@ read KEY
 D=""
 FILES="./fixes/files"
 DATE=$(date +%F_%R:%S | sed 's/://g')
-SUFFIX="dangerous"
+SUFFIX="normal"
 
 SITES="dojo-basic dojo-scavenger dvwa mutillidae"
 for site in $SITES ; do
