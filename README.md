@@ -1,7 +1,7 @@
 samurai-fixes
 =============
 
-Fixes for SamuraiWTF to make teaching the class go more smoothly
+Fixes for SamuraiWTF to make teaching the class go more smoothly (work on Samurai 2.0)
 
 This was originally created as an import of  svn://svn.code.sf.net/p/samurai/code/trunk 
 
